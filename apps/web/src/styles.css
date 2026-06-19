@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* Scan app sources for utility classes. */
+@source './';
+@source not '**/*.{spec,test}.*';
+
+/* Tighten the markdown/prose code blocks rendered in chat messages. */
+.prose pre {
+  margin: 0.5rem 0;
+}
