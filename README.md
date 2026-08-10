@@ -3,8 +3,11 @@
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
 A streaming, type-safe AI chat with tool calling - TanStack Start and TanStack AI, wired up in an Nx monorepo.
+
 <!-- BEGIN: nx-cloud -->
+
 🚀 If you haven't connected to Nx Cloud yet, [complete your setup here](https://cloud.nx.app/get-started). Get faster builds with remote caching, distributed task execution, and self-healing CI. [See how your workspace can benefit](#nx-cloud).
+
 <!-- END: nx-cloud -->
 
 ## Quick Start
@@ -47,7 +50,7 @@ tanstack-ai-template/
       - routes/__root.tsx          HTML shell + bundled Tailwind v4
       - components/NxCommandCard.tsx  Renders the showNxCommand tool output
       - router.tsx / client.tsx / ssr.tsx
-    - vite.config.ts               Vite 8 + TanStack Start + Tailwind v4
+    - vite.config.mts              Vite 8 + TanStack Start + Tailwind v4
 - packages/
   - ai/                            Shared, isomorphic AI tools + types (@tanstack-ai-template/ai)
     - src/
